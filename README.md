@@ -33,6 +33,8 @@ While the overall variance, as shown in the Total Summary data above, is under 1
 
 ### T-Tests on Suspension Coils
 - Suspension Coils Cumulative T-test, a review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
+
+
 ![Screen Shot 2022-04-17 at 7 51 19 PM](https://user-images.githubusercontent.com/95242493/163742183-c420d43c-6456-4336-8573-a9c63079dd87.png)
 
 - A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
@@ -47,4 +49,21 @@ While the overall variance, as shown in the Total Summary data above, is under 1
 
 ![Screen Shot 2022-04-17 at 7 54 35 PM](https://user-images.githubusercontent.com/95242493/163742463-cfa02dc6-2f83-48bf-bd0c-24edfc5bc596.png)
 
+## Study Design: MechaCar vs Competition
 
+There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
+
+### Metric to test
+
+To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
+
+### Null and Alternate Hypothesis
+
+H0: MechaCar prototypes' average carrying capacity is similar to competitor's vehicles in the same vehicle class Ha: MechaCar prototypes' average carrying capacity is statistically above or below that of competitor vehicles.
+
+### Statistical Test Used
+The best statistical test for this would be two-sample t-tests.
+
+### What data is needed
+
+We would need to gather cubic space data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.

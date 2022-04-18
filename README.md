@@ -30,3 +30,21 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 ![Screen Shot 2022-04-17 at 7 37 17 PM](https://user-images.githubusercontent.com/95242493/163741162-1abcbf5f-c6a3-41ec-a463-39ff7199fc04.png)
 
 While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
+
+### T-Tests on Suspension Coils
+- Suspension Coils Cumulative T-test, a review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
+![Screen Shot 2022-04-17 at 7 51 19 PM](https://user-images.githubusercontent.com/95242493/163742183-c420d43c-6456-4336-8573-a9c63079dd87.png)
+
+- A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
+
+![Screen Shot 2022-04-17 at 7 52 33 PM](https://user-images.githubusercontent.com/95242493/163742276-8718e55f-751e-4e43-a41c-4ad7b79fa06f.png)
+
+- A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
+
+![Screen Shot 2022-04-17 at 7 53 42 PM](https://user-images.githubusercontent.com/95242493/163742376-1385433f-9d4c-4ee0-b79c-0f0bf2b06b7d.png)
+
+- A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+
+![Screen Shot 2022-04-17 at 7 54 35 PM](https://user-images.githubusercontent.com/95242493/163742463-cfa02dc6-2f83-48bf-bd0c-24edfc5bc596.png)
+
+

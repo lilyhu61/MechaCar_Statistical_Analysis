@@ -21,6 +21,12 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
   There are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of   0.7149, highlighted in the purple box, indicates that the model is 71% accurate... though it could probably do better.
 
 ### Summary Statistics on Suspension Coils
-**total_summary dataframe**
+**total_summary dataframe:**
 
 ![Screen Shot 2022-04-17 at 7 34 22 PM](https://user-images.githubusercontent.com/95242493/163740979-2ffa7c3f-619d-4f1d-bc59-02ccaaaa9ef1.png)
+
+**lot_summary dataframe:**
+
+![Screen Shot 2022-04-17 at 7 37 17 PM](https://user-images.githubusercontent.com/95242493/163741162-1abcbf5f-c6a3-41ec-a463-39ff7199fc04.png)
+
+While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.

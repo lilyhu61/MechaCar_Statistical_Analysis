@@ -19,3 +19,8 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
   There are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of   0.7149, highlighted in the purple box, indicates that the model is 71% accurate... though it could probably do better.
+
+### Summary Statistics on Suspension Coils
+**total_summary dataframe**
+
+![Screen Shot 2022-04-17 at 7 34 22 PM](https://user-images.githubusercontent.com/95242493/163740979-2ffa7c3f-619d-4f1d-bc59-02ccaaaa9ef1.png)
